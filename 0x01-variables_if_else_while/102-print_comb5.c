@@ -23,7 +23,7 @@ int main(void)
 			if (first_num < 98 || second_num < 99)
 			{
 				putchar(',');
-				purchar(' ');
+				putchar(' ');
 			}
 		}
 	}
