@@ -1,25 +1,20 @@
 #include <stdio.h>
+
+
 /**
  * main - entry point
  *
- * Return: alway returns 0
- *
+ * Return: always returns 0
  */
 int main(void)
 {
-	unsigned char a = '0';
-	int i;
-
-	for (i = 0; i < 10; i++)
+	for (int i = 0; i <= 9; i++)
 	{
-		putchar(a);
-		a++;
+		putchar('0' + i);
 	}
-	a = '1';
-	for (i = 0; i < 6; i++)
+	for (int i = 'a'; i <= 'f'; i++)
 	{
-		putchar('0' + a);
-		a++;
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
