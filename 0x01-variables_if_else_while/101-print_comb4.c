@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int hudreds_digit, tens_digit, ones_digit;
+	int hundreds_digit, tens_digit, ones_digit;
 
 	for (hundreds_digit = 0; hundreds_digit <= 7; hundreds_digit++)
 	{
