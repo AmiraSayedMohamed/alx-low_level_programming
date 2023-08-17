@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * _isupper - checks if c is upper
  *
