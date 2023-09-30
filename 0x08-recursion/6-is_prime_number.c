@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _prime_number - is a function that checks if the number i sprime or not
+ * is_prime_number - is a function that checks if the number i sprime or not
  * @n: integer
  * Return: 1 if it is prime and 0 if it's not
  */
