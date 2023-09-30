@@ -20,6 +20,7 @@ int is_palindrome(char *s)
  * @s: string
  * @start:  integer
  * @end: start
+ * Return: 1 if palindrome 0 if not
  */
 
 int is_palindrome_recursive(char *s, int start, int end)
