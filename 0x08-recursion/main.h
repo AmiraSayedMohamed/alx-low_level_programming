@@ -12,4 +12,5 @@ int is_prime_number(int n);
 int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int squareRoot(int n, int val);
+int isPrimeRecursive(int n, int divisor);
 #endif /* MAIN_H */
