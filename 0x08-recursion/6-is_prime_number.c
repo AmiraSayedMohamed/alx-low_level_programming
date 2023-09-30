@@ -24,10 +24,11 @@ int isPrimeRecursive(int n, int divisor)
 /*Base case: if n is less than 2, it's not prime*/
 	if (n < 2)
 		return (0);
-	if (divisor == 2)
-		return (1);
 	if (n % divisor == 0)
 		return (0);
+	if (divisor == 2)
+		return (1);
+
 	return (isPrimeRecursive(n, divisor - 1));
 
 }
