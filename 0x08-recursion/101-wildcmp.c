@@ -12,7 +12,7 @@
 int wildcmp(char *s1, char *s2)
 {
 	/*if both strings are empty, they are identical*/
-	if (*s1 == '\0' && *s2 == '\0')
+	if (*s1 == '\0' && (*s2 == '\0' || (*s2 == '*' && s2[1] == '\0')))
 		return (1);
 	/*if s2 is a "*", it can replace my string (including an empty string)*/
 	if (*s2 == '*')
