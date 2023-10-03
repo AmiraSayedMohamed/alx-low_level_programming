@@ -3,7 +3,7 @@
 /**
  * main - a function to print it's name
  * @argc: integer
- * @*argv[]: array of argc
+ * @argv: array of argc
  * Return: no return
  */
 
