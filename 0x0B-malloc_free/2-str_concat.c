@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * _strlen - a function to find the length of the string
+ * _strilen - a function to find the length of the string
  * @s: string
  * Return: int
  */
@@ -26,7 +26,7 @@ int _strlen(char *s)
 
 char *str_concat(char *s1, char *s2)
 {
-	int size1, size2, i;
+	int size1, size2, i, j;
 	char *n;
 
 	if (s1 == NULL)
