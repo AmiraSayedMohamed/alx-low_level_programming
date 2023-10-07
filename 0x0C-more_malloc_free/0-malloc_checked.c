@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  * malloc_checked - a function allocate memory
  * @b: unsigned int, allocated memory
