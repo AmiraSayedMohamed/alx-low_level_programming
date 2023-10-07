@@ -21,7 +21,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	/*get the length of the two string */
 	for (strlen_1 = 0; s1[strlen_1] != '\0'; strlen_1++)
 		;
-	for (strlen_2 = 0; s2[strlen_2] != '\0'; strlen2++)
+	for (strlen_2 = 0; s2[strlen_2] != '\0'; strlen_2++)
 		;
 	m = malloc(strlen_1 + n + 1);
 	if (m == NULL)
@@ -33,10 +33,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (j = 0; j < n; j++)
 	{
 		m[i] = s2[j];
-		i++
+		i++;
 	}
 
 	m[i] = '\0';
-	return (str);
+	return (m);
 
 }
