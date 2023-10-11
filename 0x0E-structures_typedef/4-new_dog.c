@@ -4,7 +4,7 @@
 /**
  * _strlength - a function that gets a length of string
  * @str: the string to get the length
- * Retutn: length of @str
+ * Return: length of @str
  */
 
 int _strlength(const char *str)
@@ -19,6 +19,7 @@ int _strlength(const char *str)
  * _strcopy - a function that returns @dest with a copy of a string from @src
  * @src: string to copy
  * @dest: @dest
+ * Return: @dest
  */
 char *_strcopy(char *dest, char *src)
 {
@@ -27,6 +28,7 @@ char *_strcopy(char *dest, char *src)
 	for (i = 0; src[i]; i++)
 		dest[i] = src[i];
 	dest[i] = '\0';
+	return (dest);
 }
 
 /**
