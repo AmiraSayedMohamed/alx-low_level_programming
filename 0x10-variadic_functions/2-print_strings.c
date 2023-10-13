@@ -9,7 +9,7 @@
  * Return: nothing
  */
 
-void print_Strings(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list list;
 	unsigned int j;
